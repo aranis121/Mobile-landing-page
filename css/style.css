@@ -1,0 +1,698 @@
+
+
+/*------------ header start------------*/
+.header{
+    background-image: linear-gradient(to right, #1566ef,#0ab8e4);
+/*    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 10;*/
+    box-shadow: 0 1px 10px #000;
+}
+.header:before{
+/*    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: url(../media/header-shape.png);*/
+}
+.navbar .navbar-nav .nav-item a{
+    color: #fff; 
+}
+.navbar-nav .nav-item{
+    padding: 0 10px;
+    font-size: 16px;
+}
+.btn{
+    padding: 11px 25px;
+    color: #fff ! important;
+   /* background: #175df0 !important;*/
+    border-radius: 5px;
+    border: none;
+}
+.btn-1{
+    background-image: linear-gradient(to right, #1566ef,#0ab8e4);
+}
+.btn:hover {
+    color: #fff !important;
+}
+.btn:focus{
+    box-shadow: none;
+}
+.navbar-toggler{
+    position: relative;
+    border: 1px solid #fff;
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+    padding: 4px 10px;
+}
+.navbar-toggler:before{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 5px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    top: 15px;
+    left: 10%;
+}
+/*------------ header end------------*/
+/*------------ banner start------------*/
+.banner{
+    background-image: linear-gradient(to right, #1566ef,#0ab8e4);
+}
+.banner-text{
+    position: relative;
+    color: #fff;
+    padding: 160px 0;
+    margin-left: 30px;
+}
+.banner-text h1{
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+.banner-text p{
+    font-size: 22px;
+    margin: 26px 0 40px;
+}
+.banner-icon{
+    height: 60px;
+    width: 225px;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
+}
+.banner-icon img{
+    height: 35px;
+    width: 35px;
+    float: left;
+    margin: 10px 8px;
+}
+/*.header-icon h2{
+    font-size: 30px;
+    color: #c1c1c1 ! important;
+    font-weight: bold;
+}
+.header-icon p{
+    margin-bottom: -8px;
+    padding: 6px 0 0 0;
+    font-size: 18px;
+    color: #a5a5a5;
+}*/
+.banner-icon-text{
+    float: left;
+}
+.banner-icon-text h2{
+    font-size: 29px;
+    color: #c1c1c1 ! important;
+    font-weight: bold;
+}
+.banner-icon-text p{
+    margin: 0 0 -10px 0;
+    font-size: 18px;
+    color: #a5a5a5;
+}
+.banner-text-img{
+   padding: 120px 0;
+}
+.banner-text-img img{
+    /*width: 100%;*/ 
+}
+/*------------ banner end------------*/
+/*------------ daily-life start------*/
+.life-style{
+    padding: 100px 0;
+}
+.life img{
+   width: 100%;
+   margin-left: -14px;
+    margin-bottom: 30px;
+}
+.life{
+    position: relative;
+}
+.life:before{
+    position: absolute;
+    width: 14%;
+    height: 24px;
+    content: '';
+    left: 59%;
+    top: -3px;
+    background: #1376ed;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px; 
+}
+.life-iteam{
+    margin-bottom: 50px;
+}
+.life-text{
+     padding: 15px 0;
+}
+.life-text p{
+    font-size: 32px;
+}
+.life-text h6{
+    font-size: 47px;
+}
+.life-icon{
+    padding: 30px 0;
+}
+.life-icon img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+}
+.life-icon h5,span{
+    padding: 10px 0;
+}
+.life-icon h5{
+    font-size: 25px;
+}
+.life-shape img{
+    width: 100%;
+    margin-left: 14px;
+}
+/*------------ daily-life end--------*/
+/*------------ makes start--------*/
+.makes{
+    padding: 100px 0;
+}
+.makes-img img{
+    width: 100%;
+    margin-left: 17px;
+}
+.makes-left{
+    background-image: linear-gradient(to right, #1566ef,#08c2e3);
+    margin: 218px -15px 0 -18px;
+    padding: 90px 146px;
+    position: relative;
+    color: #fff;
+}
+.makes-left h2{
+    font-size: 38px;
+    padding-bottom: 20px;
+}
+.makes-left p{
+    font-size: 20px;
+    margin-bottom: 25px
+}
+.makes-text-icon ul{
+    margin: 0;
+    padding: 0;
+}
+.makes-text-icon ul li{
+    display: inline;
+    list-style-type: none;
+    padding: 20px 20px 20px 0px;
+}
+.makes-text-icon ul li i{
+    font-size: 40px;
+}
+
+/*------------ makes end--------*/
+/*------------ pricing start----*/
+.pricing{
+    position: relative;
+}
+.pricing:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url(../media/price-shape.png);
+}
+.price-text{
+   padding: 0 150px 0 0;
+}
+.price-text h6{
+    font-size: 20px;
+    padding: 20px 0 0 10px;
+    color: #c9cbcb;
+}
+.price-text h5{
+      font-size: 40px;
+       padding: 10px 10px;
+    color: #00000a;
+}
+.price-text p{
+    padding: 10px 0 0 16px;
+}
+.price-text-button{
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+.price-text-button .btn1{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 6px 20px 11px 20px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+}
+.price-text-button .btn2{
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 6px 36px 11px 20px;
+    border: none;
+    font-size: 20px;
+    background: #ffffff;
+    margin-left: -5px;
+}
+.price-text-button .btn-1{
+      background-image: linear-gradient(to right, #1566ef,#08c2e3);
+}
+.pricing-table{
+    margin-top: 26px;
+    padding: 16px 100px;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2); 
+}
+.pricing-table ul{
+      padding: 0;
+}
+.pricing-table ul li{
+    padding: 5px 0;
+    list-style-type: none;
+    font-size: 14px;
+}
+.pricing-middle p{
+    margin-top: 20px;
+}
+.pricing-middle sup{
+    font-size: 30px;
+    top: -3px;
+    left: 0px;
+}
+.pricing-middle em{
+   font-size: 30px;
+}
+.pricing-table .btn3{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background: white;
+    padding: 5px 30px 5px 30px;
+    color: #000;
+    border: 1px solid #ebebeb;
+}
+
+/*------------ pricing end------*/
+/*------------app-section start-*/
+.app-section{
+    padding: 100px 0;
+}
+.app-section-left{
+    background-image: linear-gradient(to right, #1566ef,#08c2e3);
+    position: relative;
+    color: #fff;
+    padding: 110px 30px;
+    margin: 40px -32px 0 -15px;
+}
+.app-section-left h2{
+    padding: 10px 0;
+    font-size: 20px;
+}
+.app-section-left p{
+    font-size: 18px;
+}
+.app-section-left-img img{
+    width: 100%;
+}
+.app-section-left-1{
+    margin: 40px 0 0 0;
+    padding: 0 5px;
+}
+.app-section-ui{
+    background-image: linear-gradient(to right, #1566ef,#08c2e3);
+    padding: 10px 0px;
+}
+.app-section-ui .app-section-icon {
+    position: relative;
+}
+.app-section-icon:after{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    left: 10px;
+}
+.app-section-icon img{
+    width: 100px;
+    height: 100px;
+    margin-left: -30px;
+}
+.app-section-ui h6{
+    color: #fff;
+    margin-bottom: 0px;
+}
+.app-section-ui span{
+    color: #000000;
+    top: 0;
+}
+.app-section-icon .fa-pen{
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 10px;
+    border: 1px solid #fff;
+    background: #1566ef;
+    border-radius: 50px;
+}
+.app-section-icon .fa-pen{
+    top: 12px;
+    position: absolute;
+    left: calc(50% - -20px);
+}
+.fa-arrow-left{
+    font-size: 25px;
+    padding: 0 5px;
+    color: #fff;
+    float: left;
+}
+.login-box{
+    margin-top: 10px;
+    padding: 0px 10px 10px 10px;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    color: #c4c4d1;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 0px;
+}
+.login-box input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #e8e8e9;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: #000;
+    font-size: 15px;
+}
+.fa-chevron-right{
+    float: right;
+    color: #3857d6;
+}
+.app-section-left-2{
+    background-image: linear-gradient(to right, #1566ef,#08c2e3);
+    margin: 40px 0 0 0;
+}
+.app-section-left-2 img{
+    padding: 160px 40px;
+    width: 200px;
+}
+.app-section-left-3{
+    margin: 40px 0 0 0; 
+}
+.app-section-left-3 em{
+    color: #9f76f8;
+    cursor: pointer;
+}
+.app-section-left-3 input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.app-section-left-3 input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #e8e8e9;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #000;
+    font-size: 15px;
+}
+.btn3{
+    padding: 6px 20px;
+    border-radius: 50px;
+    background: #efefef;
+    border: none;
+    cursor: pointer;
+    color: #9f76f8;
+}
+.app-section-left-3 h6{
+    margin-top: 20px;
+}
+.app-section-left-3 p{
+    font-size: 15px;
+    margin-top: 24px;
+}
+.app-section-left-3 a{
+    float: right;
+    font-size: 1rem;
+    color: #9f76f8;
+    margin-top: 5px;
+}
+.app-section-left-3 span{
+    color: #ec8c79;
+    cursor: pointer;
+}
+/*------------app-section end-*/
+/*------------ reviews strat----*/
+.reviews{
+    padding: 100px 0;
+}
+.reviews-text{
+    margin-bottom: 30px;
+    padding: 320px 10px 10px 12px;
+}
+.reviews-text h6{
+    color: #2b2e35;
+    font-size: 30px;
+}
+.reviews-img img{
+    width: 100%;
+    margin-left: 14px;
+}
+/*------------ reviews end------*/
+/*----------our-team start------*/
+.our-team{
+    padding: 100px 0;
+}
+.team-title h3{
+    color: #8c8c8c;
+    font-size: 30px;
+}
+.team-title h4{
+     font-size: 30px;
+}
+.team-1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.team-1-pic{
+    background: #f8fcfd;
+    padding: 80px 0 30px 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.user-1{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+.team-1-pic img{
+    top: 116px;
+    position: absolute;
+    left: calc(50% - 60px);
+}
+.team-1-pic .fa-facebook-f{
+    font-size: 16px;
+    margin: 0px 2px 0 2px;
+    padding: 10px 0;
+    color: #fff;
+    background: #175df0;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    text-align: center;
+}
+.team-1-pic .fa-twitter{
+    font-size: 16px;
+    margin: 0px 2px 0 2px;
+    padding: 10px 0;
+    color: #fff;
+    background: #f7ba4d;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    text-align: center;
+}
+.team-1-pic:hover{
+    background-image: linear-gradient(to right, #1566ef,#08c2e3);
+    transition: .5s;
+    color: #fff;
+}
+.team-1-pic:hover .fa-facebook-f{
+    color: blue;
+    background: #fff;
+}
+
+/*------------our-team end------*/
+/*------------footer start------*/
+.footer{
+    padding: 60px 0;
+    background: #f5fdff;
+}
+.footer h1{
+    font-size: 40px;
+    text-align: center;
+}
+.footer-search{
+    padding: 30px 0;
+    margin: 22px 50px;
+}
+.footer-search .form-control{
+    max-width: 275px;
+    display: inline-flex;
+    margin: 10px 10px;
+    padding: 0px 0px 0px 20px;
+    box-shadow: none !important;
+    border-radius: 50px;
+    border: 1px solid #dcdcdc;
+}
+.btn-primary{
+    background-image: linear-gradient(to right, #1566ef,#08c2e3);
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 50px;
+    display: inline-flex;
+    padding: 8px 20px 8px 20px;
+    margin-bottom: 5px;
+}
+.footer-menu{
+    text-align: right;
+    margin-right: 70px;
+}
+.footer-menu ul li{
+    display: inline;
+    list-style-type: none;
+    padding: 0 20px 0 0px;
+    margin-right: 0px;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    color: #9f9f9f;
+}
+.footer-section{
+    margin-top: 20px;
+}
+.footer-logo{
+    width: 50%;
+    float: left;
+    margin-left: 94px;
+}
+.footer-logo p{
+    padding: 15px 10px;
+}
+.footer-icon{
+    padding: 53px 0 0 0;
+    float: right;
+    margin-right: 70px;
+}
+.footer-icon ul{
+    margin: 0;
+    padding: 0;
+}
+.footer-icon ul li{
+    display: inline;
+    list-style-type: none;
+    padding: 20px 20px 20px 0px;
+}
+.footer-icon ul li i{
+    font-size: 20px;
+    color: #9f9f9f;
+}
+.footer-icon ul li i:hover{
+    color: #175df0;
+}
+/*------------footer end--------*/
+
+/*----responsive start----------*/
+@media all and (max-width:786px){
+    .life-shape img{
+         margin-left: 14px;
+    }
+    .makes-img img {
+        margin-left: 0px;
+    }
+    .makes-left{
+        padding: 90px 12px;
+    }
+    .makes-left h2{
+        font-size: 35px;
+    }
+    .app-section-left{
+         margin: 50px -14px 0 -15px;
+        margin-bottom: 30px;
+    }
+    .app-section-left-img{
+        margin-bottom: 30px;
+    }
+    .app-section-left-1{
+        margin-bottom: 30px;
+    }
+    .reviews-text{
+         padding: 0 0;
+    }
+    .user{
+        width: 100%;
+    }
+    .team-1-pic img{
+        top: 160px;
+        position: absolute;
+        left: calc(50% - 60px);
+    }
+    .team-1-pic h5{
+        font-weight: bold;
+    }
+    .team-1-pic p{
+        font-size: 25px;
+    }
+    .footer-search{
+        margin: 15px 15px;
+    }
+    .footer-search .form-control{
+       max-width: none;
+       padding: 24px 10px;
+       margin-left: 2px;
+       margin-bottom: 20px;
+    }
+    .btn-primary{
+       font-size: 15px;
+       padding: 12px 20px 12px 20px;
+    }
+    .footer-menu{
+        display: inline-flex; 
+    }
+    .footer-menu ul li{
+        padding: 0 15px;
+    }
+    .footer-logo{
+        margin-left: 20px;
+    }
+    .footer-logo p{
+        font-size: 12px;
+    }
+    .footer-icon{
+        padding: 47px 0 0 0;
+    }
+    .footer-icon ul li{
+        padding: 10px 10px 10px 0;
+    }
+    .footer-icon ul li i{
+        font-size: 20px;
+    }
+}
+/*----responsive end---------*/
